@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jere&Kati<3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <script src="juomapeli.js"></script>
+</head>
+<body>
+
+ <header class="w3-container w3-black w3-left-align">
+  <button class="w3-padding-medium w3-hover-text-grey button1" onclick='playGame();' type='button' value='&#9658;'><span class="glyphicon glyphicon-play"></span></button>
+  <button class="w3-padding-medium w3-hover-text-grey button1" onclick='stopGame();' type='button'><span class="glyphicon glyphicon-stop"></span></button>
+  <button class="w3-padding-medium w3-hover-text-grey button1" style="color:white;" onclick="document.getElementById('id01').style.display='block'"><span class="glyphicon glyphicon-plus"></span></button>
+  <li class="w3-dropdown-hover">
+    <button class="w3-padding-medium w3-hover-text-grey button1" value="Pelaajat">Pelaajat</Button>
+    <div id="pelaajat" class="w3-dropdown-content w3-black w3-card-4" >
+    </div>
+  </li>
+</header>
+
+<div id="id01" class="w3-modal " style="display: none">
+  <div class="w3-modal-content w3-card-8 w3-animate-zoom w3-padding-jumbo modal-oma" style="max-width:600px">
+    <div class="w3-container w3-black w3-center">
+      <h1 class="w3-wide">Uusi pelaaja</h1>
+      <form>
+        <input class="w3-input w3-border" style="margin-top: 40px; color:black;" type="text" autofocus="autofocus" id="uuspelaaja" name="name">
+      </form>
+      <button onclick="newplayer();" type="button" class="w3-btn-block w3-white" style="margin: 40px 0px 30px 0px; border-radius: 5px;">OK</button>
+    </div>
+  </div>
+</div>
+
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-middle text-block">
+    <h2 iclass="w3-jumbo w3-animate-top text-block" id="text_line"></h2>
+  </div>
+</div>
+
+
+</body>
+</html>
