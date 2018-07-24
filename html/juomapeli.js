@@ -1,4 +1,4 @@
-var players = ['Jere','Kati'];
+var players = [' '];
 var number_of_rounds = 50;
 var max_difference_between_players_amount = 5;
 var max_amount_of_drinks_at_once = 5;
@@ -113,6 +113,6 @@ var empty = [0];
 
   $(document).ready(function(){
     updatelist();
-    $("#text_line").text("Kivoja tupareita <3");
+    $("#text_line").text("JUOMAPELI");
   });
 
