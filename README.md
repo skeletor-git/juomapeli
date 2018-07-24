@@ -20,6 +20,9 @@ there is play stop and add button on the top left corner
 Requires python 2.x or python 3.x
 
 Supports Spotify and Mac
+
+Uses Mac 'say' command for synthetic voice
+
 Automatically lowers Spotify down when saying the amounts of drinks
 	
 Modify the python file to change players or amount of drinks
