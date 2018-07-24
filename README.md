@@ -1,11 +1,11 @@
 # Juomapeli
 Drinking game that commands you and your friends to drink random amount of drinks at random amount of time
 
-#Usage
+# Usage
 
 There is HTML and Python version
 
-##HTML version
+## HTML version
 
 In HTML version you can add player anytime you want
 
@@ -15,8 +15,9 @@ there is play stop and add button on the top left corner
 
 
 
-##Python version
-Requires Python X.x
+## Python version
+
+Requires python 2.x or python 3.x
 
 Supports Spotify and Mac
 Automatically lowers Spotify down when saying the amounts of drinks
